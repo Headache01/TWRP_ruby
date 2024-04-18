@@ -119,3 +119,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+
+#DEBUGGING
+TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := true
